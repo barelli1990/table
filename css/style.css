@@ -33,7 +33,9 @@ body{
 }
 .table{
     background-color: #fff;
-   
+    max-width: 1230px;
+    min-width: 1230px; 
+    width: 100%;
 }
 table { border-collapse: separate; }
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
@@ -60,6 +62,7 @@ table { border-collapse: separate; }
 .clients-list{
     flex-grow: 1; 
     flex-shrink: 1;
+    overflow-x:scroll;
     padding: 22px 30px 0;
     background-color: #eff3f5;
     -webkit-box-shadow: inset 1px 1px 5px 1px rgba(0,0,0,0.36);
