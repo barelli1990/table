@@ -12,7 +12,7 @@ $( document ).ready(function() {
             $('.table > tbody > tr').eq(idx+1).after("<tr class='detail-about-clients'><td colspan='5'><div><div class='about-clients-title'>Объекты клиента</div>"+
             "<p>всего объектов 2</p><div class='objects'>ОБЪЕКТ</div>"+
             "<div class='count-objects'></div>"+
-            "<div><a class='button-panel' href='№'><img src='img/card.png' alt=''> перейти в карточку</a><span class='hide-details'>скрыть детали</span></div></div> </td></tr>");
+            "<div><a class='button-panel' href='#'><img src='img/card.png' alt=''> перейти в карточку</a><span class='hide-details'>скрыть детали</span></div></div> </td></tr>");
             $.getJSON("clients.json", function(data){
                 $.each(data.members[idx].object, function (index, value) {
                     $('.count-objects').append("<div class='objects'>"+value+"</div>");
