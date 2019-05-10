@@ -163,7 +163,6 @@ h3{
 }
 .detail-about-clients.active {
     display: table-row;
-    /* position: relative; */
    
 }
 .about-clients-title{
@@ -201,6 +200,7 @@ h3{
     color: #475364;
     float: right;
     margin-top: 20px;
+    cursor: pointer;
 }
 .arrow{
     position: absolute;
