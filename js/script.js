@@ -26,7 +26,6 @@ $( document ).ready(function() {
         }
     });
     $(".table").on("click", ".hide-details",function(e){
-        console.log("dd");
         $('table>tbody').children('.detail-about-clients').remove();
         $('tr').fadeTo( "slow", 1 );
     });
